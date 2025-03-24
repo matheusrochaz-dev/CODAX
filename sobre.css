@@ -1,0 +1,241 @@
+body { /* deixa que todo o fundo fique nessa cor.  É um fundo inexistente */
+    background-color: rgb(209, 212, 203);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: #b8abab;
+    z-index: 2222;
+}
+
+.imag {
+    margin-top: 6px;
+    margin-left: 40px;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: black;
+    width: 100%;
+    bottom: 0px;
+    margin: 0px;
+    position: absolute;
+}
+
+.cabecalho{
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 80px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+}
+
+.codax{
+    width: 164px;
+    height: 44px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 4em;
+    color: rgb(255, 217, 0);
+}
+
+.titulos{
+    display: flex;
+    gap: 40px;
+    left: 38%;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+
+.estudos{
+    box-sizing: border-box;
+    background-color: #BF7A0B;
+    width: 164px;
+    height: 44px;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.estudos:hover, .noticais:hover, .saude:hover, .sobre:hover{
+    background-color: white;
+    color: black;
+}
+
+.noticais{
+    box-sizing: border-box;
+    background-color: #5E92F2;
+    width: 164px;
+    height: 44px;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.saude{
+    box-sizing: border-box;
+    background-color: #30B248;
+    width: 164px;
+    height: 44px;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.sobre{
+    box-sizing: border-box;
+    background-color: #858685;
+    width: 164px;
+    height: 44px;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.spacetop{
+    width: 100%;
+    height: 130px;
+}
+
+a:active, a:visited, a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.codax:hover {
+    color: #ffffff;
+}
+
+
+.slides input{
+    display: none;
+}
+
+
+.manual-navigation{
+    position: absolute;
+    width: 400px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: #ffffff;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.navigation-auto div{
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 400px;
+    margin-top: 360px;
+    display: flex;   
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #ffffff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #ffffff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #ffffff;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #ffffff;
+}
+
+.slide p{
+    position: absolute;
+    justify-content: center;
+    top: 0;
+    font-size: 1em;
+    padding-left: 440px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.slide img{
+    width: 400px;
+    height: 400px;
+}
+
+.slide{
+    position: relative;
+    width: 800px;
+}
+
+.slider{
+    margin-left: 100px;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}

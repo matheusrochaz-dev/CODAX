@@ -1,0 +1,196 @@
+body { /* deixa que todo o fundo fique nessa cor.  É um fundo inexistente */
+    max-width: 100%;
+    background-color: rgb(209, 212, 203);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: #b8abab;
+    z-index: 2222;
+}
+
+.imag {
+    margin-top: 6px;
+    margin-left: 40px;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: black;
+    width: 100%;
+    bottom: 0px;
+    margin: 0px;
+    position: absolute;
+}
+
+.cabecalho{
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 80px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+}
+
+.codax{
+    width: 164px;
+    height: 44px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 4em;
+    color: rgb(255, 217, 0);
+}
+
+.titulos{
+    display: flex;
+    gap: 40px;
+    left: 38%;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+
+.estudos{
+    box-sizing: border-box;
+    background-color: #BF7A0B;
+    width: 164px;
+    height: 44px;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.estudos:hover, .noticais:hover, .saude:hover, .sobre:hover{
+    background-color: white;
+    color: black;
+}
+
+.noticais{
+    box-sizing: border-box;
+    background-color: #5E92F2;
+    width: 164px;
+    height: 44px;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.saude{
+    box-sizing: border-box;
+    background-color: #30B248;
+    width: 164px;
+    height: 44px;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.sobre{
+    box-sizing: border-box;
+    background-color: #858685;
+    width: 164px;
+    height: 44px;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.spacetop{
+    width: 100%;
+    height: 130px;
+}
+
+.notg, .nbig{
+    width: 759px;
+    height: 507px;
+    
+}
+
+.notg{
+    position: relative;
+}
+
+.tnbig{
+    padding: 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 1.8em;
+    background-color: #5E92F2;
+}
+
+main{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+.not2p, .not1p{
+    width: 432px;
+    height: 249px;
+    position: relative;
+}
+
+.notp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tn1p, .tn2p{
+    padding: 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    font-size: 1.4em;
+    background-color: #00ff40;
+}
+
+.obmep{
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+    background-image: radial-gradient(circle, #000000, #000000 ); /* Gradiente aplicado ao texto */
+    background-clip: text;  /* Aplica o gradiente como cor do texto */
+    color: transparent;
+    font-size: 2.3em;
+}
+
+.proibir{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    background-image: radial-gradient(circle, #000000, #2C09C7 ); /* Gradiente aplicado ao texto */
+    background-clip: text;  /* Aplica o gradiente como cor do texto */
+    color: transparent;
+    font-size: 1.8em;
+}
+
+a:active, a:visited, a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.codax:hover {
+    color: #ffffff;
+}
