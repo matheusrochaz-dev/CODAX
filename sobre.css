@@ -239,3 +239,21 @@ a:active, a:visited, a{
     height: 400px;
     display: flex;
 }
+
+.notcanto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 100px;
+}
+
+.notcanto img{
+    width: 300px;
+    height: 160px;
+
+}
+
+.fle{
+    display: flex;
+}
