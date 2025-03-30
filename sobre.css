@@ -13,6 +13,8 @@ header {
 .imag {
     margin-top: 6px;
     margin-left: 40px;
+    width: 80px;
+    height: 80px;
 }
 
 hr {
@@ -211,10 +213,14 @@ a:active, a:visited, a{
     position: absolute;
     justify-content: center;
     top: 0;
-    font-size: 1em;
+    font-size: 1.1em;
+    line-height: 1.1; /* Aumenta o espaçamento entre linhas */
+    letter-spacing: 1px; /* Aumenta o espaçamento entre letras */
+    word-spacing: 1px; /* Aumenta o espaçamento entre palavras */
     padding-left: 440px;
     padding-right: 20px;
     padding-bottom: 20px;
+    text-align: justify;
 }
 
 .slide img{
