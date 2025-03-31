@@ -128,4 +128,15 @@ a:active, a:visited, a{
     color: #ffffff;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.as{
+    margin-top: 59px;
+    width: 1200px;
+    height: 300px;
+    
+}

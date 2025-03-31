@@ -129,3 +129,43 @@ a:active, a:visited, a{
 }
 
 
+/*main*/
+
+.no{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.ca img{
+    width: 380px;
+    height: 177px;
+    border: 3px solid black;
+    margin-right: 10px;
+}
+
+.aaa{
+    width: 900px;
+    height: 440px;
+    margin-left: 30px;
+}
+
+.ca{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.ca p{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.online{
+    position: absolute;
+    bottom: 200px;
+    left: 140px;
+    font-size: 2.4em;
+}

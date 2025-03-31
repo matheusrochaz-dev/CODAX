@@ -129,3 +129,32 @@ a:active, a:visited, a{
 }
 
 
+/*main*/
+
+
+.background{
+background-color: whitesmoke;
+margin: 10px 500px 0px 80px;
+width: fit-content;
+padding: 20px;
+text-align: justify;
+}
+
+.background p{
+width: 800px;
+font-size: 25px;
+padding-top: 30px;
+}
+
+.background img{
+width: 800px;
+height: 400px;
+padding-top: 30px;
+}
+
+.q, .qw{
+font-size: 35px;
+font-weight: bold;
+padding-top: 10px;
+padding-bottom: 10px;
+}
