@@ -225,7 +225,7 @@ a:active, a:visited, a{
     
     header {
         width: 100%;
-        height: 33px;
+        height: 50px;
         position: fixed;
         background-color: #b8abab;
         z-index: 2222;
@@ -234,10 +234,10 @@ a:active, a:visited, a{
     .imag {
         margin-top: 2px;
         margin-left: 12px;
-        width: 20px;
-        height: 20px;
+        width: 50px;
+        height: 40px;
     }
-    
+
     hr {
         border: none;
         height: 1px;
@@ -259,7 +259,7 @@ a:active, a:visited, a{
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 30px;
+        gap: 10px;
     }
     
     .codax{
@@ -268,29 +268,32 @@ a:active, a:visited, a{
         justify-content: center;
         display: flex;
         align-items: center;
-        font-size: 1.3em;
         color: rgb(255, 217, 0);
+        font-size: 1em;
     }
     
     .titulos{
         display: flex;
-        gap: 12px;
-        left: 13%;
+        gap: 6px;
+        left: 40%;
         position: absolute;
         box-sizing: border-box;
+        top: 3px;
+        font-size: 0.6em;
+        padding-top: 0px;
     }
-    
     
     .estudos{
         box-sizing: border-box;
         background-color: #BF7A0B;
-        width: 56px;
+        width: 50px;
         height: 40px;
         border-radius: 4px;
         justify-content: center;
         display: flex;
         align-items: center;
         color: white;
+        padding-top
     }
     
     .estudos:hover, .noticais:hover, .saude:hover, .sobre:hover{
@@ -301,7 +304,7 @@ a:active, a:visited, a{
     .noticais{
         box-sizing: border-box;
         background-color: #5E92F2;
-        width: 56px;
+        width: 50px;
         height: 40px;
         border-radius: 4px;
         justify-content: center;
@@ -312,7 +315,7 @@ a:active, a:visited, a{
     
     .saude{
         box-sizing: border-box;
-        width: 56px;
+        width: 40px;
         height: 40px;
         border-radius: 4px;
         justify-content: center;
@@ -324,7 +327,7 @@ a:active, a:visited, a{
     .sobre{
         box-sizing: border-box;
         background-color: #858685;
-        width: 56px;
+        width: 40px;
         height: 40px;
         border-radius: 4px;
         justify-content: center;
@@ -335,11 +338,11 @@ a:active, a:visited, a{
     
     .spacetop{
         width: 100%;
-        height: 43px;
+        height: 63px;
     }
     
     .notg, .nbig{
-        width: 253px;
+        width: 230px;
         height: 169px;
     }
     
@@ -388,9 +391,10 @@ a:active, a:visited, a{
     
     .online{
         position: absolute;
-        bottom: 66px;
-        left: 20px;
-        font-size: 0.9em;
+        bottom: 43px;
+        left: 14px;
+        font-size: 1.1em;
+        text-align: center;
     }
     
     .n1p, .n2p{
