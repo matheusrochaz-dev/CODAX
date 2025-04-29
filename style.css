@@ -216,3 +216,223 @@ a:active, a:visited, a{
 .codax:hover {
     color: #ffffff;
 }
+
+@media(max-width: 450px) {
+    body { /* deixa que todo o fundo fique nessa cor.  É um fundo inexistente */
+        max-width: 100%;
+        background-color: rgb(209, 212, 203);
+    }
+    
+    header {
+        width: 100%;
+        height: 33px;
+        position: fixed;
+        background-color: #b8abab;
+        z-index: 2222;
+    }
+    
+    .imag {
+        margin-top: 2px;
+        margin-left: 12px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    hr {
+        border: none;
+        height: 1px;
+        background-color: black;
+        width: 100%;
+        bottom: 0px;
+        margin: 0px;
+        position: absolute;
+    }
+    
+    .cabecalho{
+        display: flex;
+        position: relative;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .logos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .codax{
+        width: 50px;
+        height: 13px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        font-size: 1.3em;
+        color: rgb(255, 217, 0);
+    }
+    
+    .titulos{
+        display: flex;
+        gap: 12px;
+        left: 13%;
+        position: absolute;
+        box-sizing: border-box;
+    }
+    
+    
+    .estudos{
+        box-sizing: border-box;
+        background-color: #BF7A0B;
+        width: 56px;
+        height: 40px;
+        border-radius: 4px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    
+    .estudos:hover, .noticais:hover, .saude:hover, .sobre:hover{
+        background-color: white;
+        color: black;
+    }
+    
+    .noticais{
+        box-sizing: border-box;
+        background-color: #5E92F2;
+        width: 56px;
+        height: 40px;
+        border-radius: 4px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    
+    .saude{
+        box-sizing: border-box;
+        width: 56px;
+        height: 40px;
+        border-radius: 4px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    
+    .sobre{
+        box-sizing: border-box;
+        background-color: #858685;
+        width: 56px;
+        height: 40px;
+        border-radius: 4px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    
+    .spacetop{
+        width: 100%;
+        height: 43px;
+    }
+    
+    .notg, .nbig{
+        width: 253px;
+        height: 169px;
+    }
+    
+    .notg{
+        position: relative;
+    }
+    
+    .tnbig{
+        padding: 1.6px;
+        border-radius: 1px;
+        position: absolute;
+        top: 7px;
+        left: 10px;
+        font-size: 0.6em;
+        background-color: #5E92F2;
+    }
+    
+    main{
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+    }
+    
+    .not2p, .not1p{
+        width: 144px;
+        height: 83px;
+        position: relative;
+    }
+    
+    .notp{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 7px;
+    }
+    
+    .tn1p, .tn2p{
+        padding: 1.6px;
+        border-radius: 1px;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        font-size: 0.5em;
+        background-color: #00ff40;
+    }
+    
+    .online{
+        position: absolute;
+        bottom: 66px;
+        left: 20px;
+        font-size: 0.9em;
+    }
+    
+    .n1p, .n2p{
+        width: 144px;
+        height: 83px;
+        border-radius: 12px;
+        opacity: 64%;
+        border: 1px solid black;
+    }
+    
+    .apagar{
+        position: absolute;
+        top: 33px;
+        font-size: 0.5em;
+        right: 7px;
+        text-align: center;
+    }
+    
+    .visita{
+        position: absolute;
+        top: 56px;
+        font-size: 0.5em;
+        right: 0px;
+        text-align: center;
+    }
+    
+    .proibir{
+        position: absolute;
+        bottom: 12px;
+        left: 3px;
+        background-image: radial-gradient(circle, #000000, #2C09C7 ); /* Gradiente aplicado ao texto */
+        background-clip: text;  /* Aplica o gradiente como cor do texto */
+        color: transparent;
+        font-size: 0em;
+    }
+    
+    a:active, a:visited, a{
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    .codax:hover {
+        color: #ffffff;
+    }
+}
