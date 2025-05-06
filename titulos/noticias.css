@@ -380,7 +380,7 @@ a:active, a:visited, a{
         font-size: 1.4em;
         position: absolute;
         margin-top: -90px;
-        margin-left: -22px;
+        margin-left: 22px;
         text-align: center;
     }
     
