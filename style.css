@@ -296,7 +296,7 @@ a:active, a:visited, a{
         padding-top
     }
     
-    .estudos:hover, .noticais:hover, .saude:hover, .sobre:hover{
+    .estudos:hover , .noticais:hover, .saude:hover, .sobre:hover {
         background-color: white;
         color: black;
     }
@@ -342,8 +342,9 @@ a:active, a:visited, a{
     }
     
     .notg, .nbig{
-        width: 230px;
-        height: 169px;
+        width: 400px;
+        height: 200px;
+        position: relative;
     }
     
     .notg{
@@ -356,28 +357,26 @@ a:active, a:visited, a{
         position: absolute;
         top: 7px;
         left: 10px;
-        font-size: 0.6em;
+        font-size: 1.2em;
         background-color: #5E92F2;
     }
     
     main{
         display: flex;
+        flex-direction: column;
         position: relative;
         justify-content: space-around;
+        gap: 15px;
     }
     
     .not2p, .not1p{
-        width: 144px;
-        height: 83px;
+        width: 400px;
+        height: 200px;
         position: relative;
-    }
-    
-    .notp{
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 7px;
+        flex-direction: row;
     }
+
     
     .tn1p, .tn2p{
         padding: 1.6px;
@@ -385,51 +384,50 @@ a:active, a:visited, a{
         position: absolute;
         top: 5px;
         left: 10px;
-        font-size: 0.5em;
+        font-size: 1.2em;
         background-color: #00ff40;
     }
     
     .online{
         position: absolute;
-        bottom: 43px;
-        left: 14px;
-        font-size: 1.1em;
+        top: 100px;
+        left: 8px;
+        font-size: 1.8em;
         text-align: center;
     }
     
-    .n1p, .n2p{
-        width: 144px;
-        height: 83px;
+    .n1p{
+        width: 400px;
+        height: 200px;
         border-radius: 12px;
-        opacity: 64%;
+        opacity: 55%;
         border: 1px solid black;
     }
-    
+
+    .n2p{
+        width: 400px;
+        height: 200px;
+        border-radius: 36px;
+        opacity: 100%;
+        border: 1px solid black;
+    }
+
+
     .apagar{
         position: absolute;
-        top: 33px;
-        font-size: 0.5em;
+        font-size: 1.5em;
+        margin-top: 30px;
         right: 7px;
-        text-align: center;
     }
     
     .visita{
         position: absolute;
-        top: 56px;
-        font-size: 0.5em;
-        right: 0px;
-        text-align: center;
+        font-size: 1.5em;
+        z-index: 54;
+        margin-top: -50px;
+        right: 7px;
     }
     
-    .proibir{
-        position: absolute;
-        bottom: 12px;
-        left: 3px;
-        background-image: radial-gradient(circle, #000000, #2C09C7 ); /* Gradiente aplicado ao texto */
-        background-clip: text;  /* Aplica o gradiente como cor do texto */
-        color: transparent;
-        font-size: 0em;
-    }
     
     a:active, a:visited, a{
         color: inherit;
