@@ -342,13 +342,14 @@ a:active, a:visited, a{
     }
     
     .notg, .nbig{
-        width: 400px;
+        width: 380px;
         height: 200px;
         position: relative;
     }
     
     .notg{
         position: relative;
+        margin-left: 20px;
     }
     
     .tnbig{
@@ -371,11 +372,12 @@ a:active, a:visited, a{
     }
     
     .not2p, .not1p{
-        width: 400px;
+        width: 380px;
         height: 200px;
         position: relative;
         display: flex;
         flex-direction: row;
+        margin-left: 20px;
     }
 
     
@@ -398,19 +400,19 @@ a:active, a:visited, a{
     }
     
     .n1p{
-        width: 400px;
+        width: 380px;
         height: 200px;
         border-radius: 12px;
         opacity: 55%;
-        border: 2px solid black;
+        border: 1px solid black;
     }
 
     .n2p{
-        width: 400px;
+        width: 380px;
         height: 200px;
         border-radius: 36px;
         opacity: 100%;
-        border: 2px solid black;
+        border: 1px solid black;
     }
 
 
