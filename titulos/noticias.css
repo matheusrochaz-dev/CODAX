@@ -331,12 +331,11 @@ a:active, a:visited, a{
     
     
     .ca img{
-        width: 380px;
+        width: 330px;
         height: 150px;
         border: 3px solid black;
         margin-right: 10px;
     }
-    
     
     .cs{
         margin-left: 20px;
@@ -349,10 +348,11 @@ a:active, a:visited, a{
     }
     
     .bb{
-        width: 380px;
+        width: 330px;
         height: 250px;
         border: 1px solid black;
         opacity: 65%;
+        margin-left: -11px;
     }
     
     .ca{
@@ -369,10 +369,10 @@ a:active, a:visited, a{
     }
     
     .qwq{
-        font-size: 1.6em;
+        font-size: 1.4em;
         position: absolute;
         margin-top: -82px;
-        margin-left: 18px;
+        margin-left: 0px;
         text-align: center;
     }
     
@@ -380,7 +380,7 @@ a:active, a:visited, a{
         font-size: 1.4em;
         position: absolute;
         margin-top: -90px;
-        margin-left: px;
+        margin-left: -22px;
         text-align: center;
     }
     
