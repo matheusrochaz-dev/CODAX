@@ -359,6 +359,7 @@ a:active, a:visited, a{
         left: 10px;
         font-size: 1.2em;
         background-color: #5E92F2;
+        border-color: 2px solid black;
     }
     
     main{
@@ -401,7 +402,7 @@ a:active, a:visited, a{
         height: 200px;
         border-radius: 12px;
         opacity: 55%;
-        border: 1px solid black;
+        border: 2px solid black;
     }
 
     .n2p{
@@ -409,7 +410,7 @@ a:active, a:visited, a{
         height: 200px;
         border-radius: 36px;
         opacity: 100%;
-        border: 1px solid black;
+        border: 2px solid black;
     }
 
 
