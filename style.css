@@ -225,6 +225,9 @@ a:active, a:visited, a{
 .comentarios{
     width: 200px;
     height: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
 }
 
 .textt{
@@ -241,6 +244,16 @@ a:active, a:visited, a{
     align-items: center;
     justify-items: center;
     margin-left: 160px;
+}
+
+.come{
+    font-size: 2em;
+    color: #00ff40;
+}
+
+.pr{
+    color: #2C09C7;
+    font-size: 10px;
 }
 
 @media(max-width: 450px) {
