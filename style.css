@@ -223,8 +223,6 @@ a:active, a:visited, a{
 }
 
 .comentarios{
-    width: 200px;
-    height: 300px;
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -241,8 +239,6 @@ a:active, a:visited, a{
     background: white;
     width: 130px;
     height: 50px;
-    align-items: center;
-    justify-items: center;
     margin-left: 160px;
 }
 
@@ -259,6 +255,11 @@ a:active, a:visited, a{
 .f{
     display: flex;
     flex-direction: column;
+    background-color: #b8abab;
+    padding: 8px 12px;          /* espaço interno */
+    border-radius: 5px;         /* cantos arredondados (opcional) */
+    display: inline-block;      /* faz o fundo ter o tamanho do conteúdo */
+    font-family: sans-serif;
 }
 
 @media(max-width: 450px) {
