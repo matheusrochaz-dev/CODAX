@@ -256,10 +256,6 @@ a:active, a:visited, a{
     display: flex;
     flex-direction: column;
     background-color: #b8abab;
-    padding: 8px 12px;          /* espaço interno */
-    border-radius: 5px;         /* cantos arredondados (opcional) */
-    display: inline-block;      /* faz o fundo ter o tamanho do conteúdo */
-    font-family: sans-serif;
 }
 
 @media(max-width: 450px) {
