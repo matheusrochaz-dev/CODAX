@@ -248,12 +248,17 @@ a:active, a:visited, a{
 
 .come{
     font-size: 2em;
-    color: #00ff40;
+    color: #000000;
 }
 
 .pr{
     color: #2C09C7;
-    font-size: 10px;
+    font-size: 30px;
+}
+
+.f{
+    display: flex;
+    flex-direction: column;
 }
 
 @media(max-width: 450px) {
