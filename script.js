@@ -29,10 +29,10 @@
                         document.getElementById('comentario').value = ''; // Limpar campo
                         carregarComentarios(); // Recarregar comentários
                     } else {
-                        alert('Erro ao enviar comentário.');
+                        alert('Erro ao enviar cntário.');
                     }
                 } catch (error) {
-                    console.error('Erro ao enviar comentário:', error);
+                    console.error('Erro ao rio:', error);
                     alert('Erro ao enviar comentário.');
                 }
             }
