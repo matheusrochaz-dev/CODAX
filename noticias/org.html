@@ -70,5 +70,17 @@
         </div>
 
     </main>
+    <hr class="l2">
+
+    <div class="comentarios">
+            <form onsubmit="enviarComentario(event)">
+            <textarea class="textt" id="comentario" rows="4" cols="50" placeholder="Escreva seu comentário aqui..." required></textarea><br>
+            <button class="but" type="submit">Enviar</button>
+            </form>
+            <div class="f">
+                <h2 class="come">Comentários salvos:</h2>
+                <pre class="pr" id="comentarios"></pre>
+            </div>
+    </div>
 </body>
 </html>

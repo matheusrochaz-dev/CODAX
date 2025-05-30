@@ -3,6 +3,34 @@ body { /* deixa que todo o fundo fique nessa cor.  É um fundo inexistente */
     background-color: rgb(255, 255, 255);
 }
 
+p, h1, h2, h3, h4, h5, h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.l2{
+    border: none;
+    height: 3px;
+    background-color: black;
+    width: 100%;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+.comentarios{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    display: flex;
+    gap: 35px;
+}
+
+.f{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
 header {
     width: 100%;
     height: 100px;
@@ -18,7 +46,7 @@ header {
     height: 80px;
 }
 
-hr {
+.hre {
     border: none;
     height: 3px;
     background-color: black;
@@ -180,15 +208,14 @@ padding-bottom: 10px;
         height: 40px;
     }
 
-    hr {
-        border: none;
-        height: 1px;
-        background-color: black;
-        width: 100%;
-        bottom: 0px;
-        margin: 0px;
-        position: absolute;
-    }
+    .hre {
+    border: none;
+    height: 3px;
+    background-color: black;
+    width: 100%;
+    bottom: 0px;
+    margin: 0px;
+    position: absolute;  }
     
     .cabecalho{
         display: flex;
