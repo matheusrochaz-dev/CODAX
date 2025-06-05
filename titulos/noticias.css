@@ -412,4 +412,27 @@ a:active, a:visited, a{
         text-align: center;
     }
     
+    .l2{
+        border: none;
+        height: 3px;
+        background-color: black;
+        width: 100%;
+        margin: 0px;
+        margin-top: 50px;
+    }
+
+    .comentarios{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        margin-left: 10px;
+        gap: 35px;
+    }
+
+    .f{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
 }
