@@ -435,4 +435,9 @@ a:active, a:visited, a{
         flex-direction: column;
         gap: 35px;
     }
+
+    .textt {
+    width: 340px;
+    height: 70px;
+    }
 }
