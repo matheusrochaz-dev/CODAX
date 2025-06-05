@@ -452,6 +452,13 @@ a:active, a:visited, a{
         border: 1px solid black;
     }
 
+    .flex{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
     .n2p{
         width: 380px;
         height: 200px;
