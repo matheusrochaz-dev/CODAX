@@ -1,13 +1,20 @@
-body { /* deixa que todo o fundo fique nessa cor.  É um fundo inexistente */
+body {
+    /* deixa que todo o fundo fique nessa cor.  É um fundo inexistente */
     max-width: 100%;
     background-color: rgb(255, 255, 255);
 }
 
-p, h1, h2, h3, h4, h5, h6{
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.l2{
+.l2 {
     border: none;
     height: 3px;
     background-color: black;
@@ -15,7 +22,7 @@ p, h1, h2, h3, h4, h5, h6{
     margin-top: 50px;
 }
 
-.comentarios{
+.comentarios {
     margin-top: 20px;
     margin-bottom: 100px;
     margin-left: 40px;
@@ -23,7 +30,7 @@ p, h1, h2, h3, h4, h5, h6{
     gap: 35px;
 }
 
-.f{
+.f {
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -54,21 +61,21 @@ header {
     position: absolute;
 }
 
-.cabecalho{
+.cabecalho {
     display: flex;
     position: relative;
     align-items: center;
     gap: 80px;
 }
 
-.logos{
+.logos {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 90px;
 }
 
-.codax{
+.codax {
     width: 164px;
     height: 44px;
     justify-content: center;
@@ -78,7 +85,7 @@ header {
     color: rgb(255, 217, 0);
 }
 
-.titulos{
+.titulos {
     display: flex;
     gap: 40px;
     left: 38%;
@@ -87,7 +94,7 @@ header {
 }
 
 
-.estudos{
+.estudos {
     box-sizing: border-box;
     background-color: #BF7A0B;
     width: 164px;
@@ -99,12 +106,15 @@ header {
     color: white;
 }
 
-.estudos:hover, .noticais:hover, .saude:hover, .sobre:hover{
+.estudos:hover,
+.noticais:hover,
+.saude:hover,
+.sobre:hover {
     background-color: white;
     color: black;
 }
 
-.noticais{
+.noticais {
     box-sizing: border-box;
     background-color: #5E92F2;
     width: 164px;
@@ -116,7 +126,7 @@ header {
     color: white;
 }
 
-.saude{
+.saude {
     box-sizing: border-box;
     background-color: #30B248;
     width: 164px;
@@ -128,7 +138,7 @@ header {
     color: white;
 }
 
-.sobre{
+.sobre {
     box-sizing: border-box;
     background-color: #858685;
     width: 164px;
@@ -140,12 +150,14 @@ header {
     color: white;
 }
 
-.spacetop{
+.spacetop {
     width: 100%;
     height: 130px;
 }
 
-a:active, a:visited, a{
+a:active,
+a:visited,
+a {
     color: inherit;
     text-decoration: none;
 }
@@ -158,32 +170,33 @@ a:active, a:visited, a{
 /*main*/
 
 
-.background{
-background-color: whitesmoke;
-margin: 10px 500px 0px 80px;
-width: fit-content;
-padding: 20px;
-text-align: justify;
+.background {
+    background-color: whitesmoke;
+    margin: 10px 500px 0px 80px;
+    width: fit-content;
+    padding: 20px;
+    text-align: justify;
 }
 
-.background p{
-width: 800px;
-font-size: 25px;
-padding-top: 30px;
+.background p {
+    width: 800px;
+    font-size: 25px;
+    padding-top: 30px;
 }
 
-.background img{
-width: 800px;
-height: 400px;
-padding-top: 30px;
+.background img {
+    width: 800px;
+    height: 400px;
+    padding-top: 30px;
 }
 
 @media(max-width: 450px) {
-    body { /* deixa que todo o fundo fique nessa cor.  É um fundo inexistente */
+    body {
+        /* deixa que todo o fundo fique nessa cor.  É um fundo inexistente */
         max-width: 100%;
         background-color: rgb(248, 248, 248);
     }
-    
+
     header {
         width: 100%;
         height: 50px;
@@ -191,7 +204,7 @@ padding-top: 30px;
         background-color: #ffffff;
         z-index: 2222;
     }
-    
+
     .imag {
         margin-top: 2px;
         margin-left: 12px;
@@ -200,29 +213,30 @@ padding-top: 30px;
     }
 
     .hre {
-    border: none;
-    height: 3px;
-    background-color: black;
-    width: 100%;
-    bottom: 0px;
-    margin: 0px;
-    position: absolute;  }
-    
-    .cabecalho{
+        border: none;
+        height: 3px;
+        background-color: black;
+        width: 100%;
+        bottom: 0px;
+        margin: 0px;
+        position: absolute;
+    }
+
+    .cabecalho {
         display: flex;
         position: relative;
         align-items: center;
         gap: 20px;
     }
-    
-    .logos{
+
+    .logos {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 10px;
     }
-    
-    .codax{
+
+    .codax {
         width: 50px;
         height: 13px;
         justify-content: center;
@@ -231,8 +245,8 @@ padding-top: 30px;
         color: rgb(255, 217, 0);
         font-size: 1em;
     }
-    
-    .titulos{
+
+    .titulos {
         display: flex;
         gap: 6px;
         left: 40%;
@@ -242,8 +256,8 @@ padding-top: 30px;
         font-size: 0.6em;
         padding-top: 0px;
     }
-    
-    .estudos{
+
+    .estudos {
         box-sizing: border-box;
         background-color: #BF7A0B;
         width: 50px;
@@ -253,15 +267,17 @@ padding-top: 30px;
         display: flex;
         align-items: center;
         color: white;
-        padding-top
     }
-    
-    .estudos:hover, .noticais:hover, .saude:hover, .sobre:hover{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+
+    .estudos:hover,
+    .noticais:hover,
+    .saude:hover,
+    .sobre:hover {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
-    
-    .noticais{
+
+    .noticais {
         box-sizing: border-box;
         background-color: #5E92F2;
         width: 50px;
@@ -272,8 +288,8 @@ padding-top: 30px;
         align-items: center;
         color: white;
     }
-    
-    .saude{
+
+    .saude {
         box-sizing: border-box;
         width: 40px;
         height: 40px;
@@ -283,8 +299,8 @@ padding-top: 30px;
         align-items: center;
         color: white;
     }
-    
-    .sobre{
+
+    .sobre {
         box-sizing: border-box;
         background-color: #858685;
         width: 40px;
@@ -295,14 +311,16 @@ padding-top: 30px;
         align-items: center;
         color: white;
     }
-    
-    .spacetop{
+
+    .spacetop {
         width: 100%;
         height: 63px;
     }
 
-    
-    a:active, a:visited, a{
+
+    a:active,
+    a:visited,
+    a {
         color: inherit;
         text-decoration: none;
     }
@@ -311,27 +329,27 @@ padding-top: 30px;
         color: #ffffff;
     }
 
-    
-    .background{
+
+    .background {
         background-color: whitesmoke;
         margin: 10px 20px 0px 10px;
         padding: 20px;
         text-align: justify;
     }
-        
-    .background p{
-    width: 365px;
-    font-size: 20px;
-    padding-top: 30px;
-    }
-    
-    .background img{
-    width: 360px;
-    height: 200px;
-    padding-top: 30px;
+
+    .background p {
+        width: 365px;
+        font-size: 20px;
+        padding-top: 30px;
     }
 
-    .l2{
+    .background img {
+        width: 360px;
+        height: 200px;
+        padding-top: 30px;
+    }
+
+    .l2 {
         border: none;
         height: 3px;
         background-color: black;
@@ -340,7 +358,7 @@ padding-top: 30px;
         margin-top: 50px;
     }
 
-    .comentarios{
+    .comentarios {
         display: flex;
         flex-direction: column;
         margin-top: 20px;
@@ -349,16 +367,16 @@ padding-top: 30px;
         gap: 35px;
     }
 
-    .f{
+    .f {
         display: flex;
         flex-direction: column;
         gap: 35px;
     }
 
     .textt {
-    width: 340px;
-    height: 70px;
+        width: 340px;
+        height: 70px;
     }
-    
+
 
 }
