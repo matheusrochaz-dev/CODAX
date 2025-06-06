@@ -42,4 +42,4 @@ async function enviarComentario(event) {
 window.onload = carregarComentarios;
 
 // Supondo que você tenha um form com id="form-comentario"
-document.getElementById('form]-comentario').addEventListener('submit', enviarComentario);
+document.getElementById('form-comentario').addEventListener('submit', enviarComentario);
