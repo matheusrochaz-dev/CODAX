@@ -38,5 +38,8 @@ async function enviarComentario(event) {
     }
 }
 
+// Carregar comentários ao iniciar a página
+window.onload = carregarComentarios;
+
 // Supondo que você tenha um form com id="form-comentario"
 document.getElementById('form-comentario').addEventListener('submit', enviarComentario);
