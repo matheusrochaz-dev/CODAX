@@ -1,7 +1,7 @@
 
 
 // Função para obter e exibir os comentários
-async function carregarComentarios() {
+async function carregarComentariosa() {
     try {
         const response = await fetch('https://backk-vty6.onrender.com/comentarios');
         const data = await response.json();
@@ -13,7 +13,7 @@ async function carregarComentarios() {
 }
 
 // Função para enviar um novo comentário
-async function enviarComentario(event) {
+async function enviarComentarioa(event) {
     event.preventDefault();
     const comentario = document.getElementById('comentario').value.trim();
     if (comentario) {
@@ -29,7 +29,7 @@ async function enviarComentario(event) {
             if (response.ok) {
                 alert('Comentário enviado!');
                 document.getElementById('comentario').value = ''; // Limpar campo
-                carregarComentarios(); // Recarregar comentários
+                carregarComentariosa(); // Recarregar comentários
             } else {
                 alert('Erro ao enviar comentário.');
             }
@@ -41,5 +41,5 @@ async function enviarComentario(event) {
 }
 
 // Carregar comentários ao iniciar a página
-window.onload = carregarComentarios;
+window.onload = carregarComentariosa;
 
