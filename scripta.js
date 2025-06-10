@@ -3,7 +3,7 @@
 // Função para obter e exibir os comentários
 async function carregarComentariosa() {
     try {
-        const response = await fetch('https://backk-vty6.onrender.com/comentarios');
+        const response = await fetch('https://backk-vty6.onrender.com/comentariosa');
         const data = await response.json();
         document.getElementById('comentarios').textContent = data.comentarios || "Nenhum comentário ainda.";
     } catch (error) {
@@ -18,7 +18,7 @@ async function enviarComentarioa(event) {
     const comentario = document.getElementById('comentario').value.trim();
     if (comentario) {
         try {
-            const response = await fetch('https://backk-vty6.onrender.com/comentar', {  // Note aqui a URL /comentar
+            const response = await fetch('https://backk-vty6.onrender.com/comentara', {  // Note aqui a URL /comentar
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
