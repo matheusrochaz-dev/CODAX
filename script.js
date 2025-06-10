@@ -12,7 +12,6 @@ async function carregarComentarios() {
 
 // Função para enviar um novo comentário
 async function enviarComentario(event) {
-    event.preventDefault();
     const comentario = document.getElementById('comentario').value.trim();
     if (comentario) {
         try {
