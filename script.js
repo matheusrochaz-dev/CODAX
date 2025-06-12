@@ -1,7 +1,7 @@
 // Função para buscar e exibir comentários
 async function carregarComentarios() {
     try {
-        const response = await fetch('https://seu-backend-url.com/comentarios');
+        const response = await fetch('https://backk-vty6.onrender.com/comentarios');
         if (!response.ok) throw new Error('Erro ao buscar comentários');
         
         const data = await response.json();
@@ -24,7 +24,7 @@ async function enviarComentario(event) {
     }
 
     try {
-        const response = await fetch('https://seu-backend-url.com/comentar', {
+        const response = await fetch('https://backk-vty6.onrender.com/comentar', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
