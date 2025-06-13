@@ -13,6 +13,7 @@ async function carregarComentarios() {
 }
 
 // Função para enviar novo comentário
+console.log("olaaa")
 async function enviarComentario(event) {
     event.preventDefault();
     const input = document.getElementById('comentario');
