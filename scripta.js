@@ -48,4 +48,3 @@ async function enviarComentario(event) {
 // Evento para carregar comentários quando a página carregar
 window.addEventListener('load', carregarComentarios);
 
-
