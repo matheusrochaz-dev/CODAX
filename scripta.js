@@ -13,7 +13,6 @@ async function carregarComentarios() {
 }
 
 // Função para enviar novo comentário
-console.log("olaaa")
 async function enviarComentario(event) {
     event.preventDefault();
     const input = document.getElementById('comentario');
@@ -38,11 +37,6 @@ async function enviarComentario(event) {
             input.value = '';
             carregarComentarios(); // Atualiza lista de comentários
         } else {
-            // Mostra o código da resposta
-             console.log("Status:", response.status);
-
-    // Mostra se foi considerado ok (entre 200 e 299)
-            console.log("OK?", response.ok);
             alert('Erro ao enviar comentário.');
         }
     } catch (error) {
