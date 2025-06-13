@@ -31,7 +31,7 @@ async function enviarComentario(event) {
             },
             body: JSON.stringify({ comentario })
         });
-
+        
         if (response.ok) {
             alert('Comentário enviado com sucesso!');
             input.value = '';
