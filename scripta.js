@@ -39,10 +39,10 @@ async function enviarComentario(event) {
             carregarComentarios(); // Atualiza lista de comentários
         } else {
             // Mostra o código da resposta
-             alert("Status:", response.status);
+             alert(response.status);
 
     // Mostra se foi considerado ok (entre 200 e 299)
-            alert("OK?", response.ok);
+            alert(response.ok);
             alert('Erro ao enviar comentário.');
         }
     } catch (error) {
