@@ -222,11 +222,11 @@ main{
 }
 
 .qqwq{
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: center;
-    justify-content: center;
-    margin-top: -102px;
-    opacity: 100%;
+    position: absolute;
+    margin-top: -103px;
+    margin-left: 27px;
 }
 
 
