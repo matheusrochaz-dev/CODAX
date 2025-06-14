@@ -224,12 +224,12 @@ main{
 .qqwq{
     font-size: 2em;
     text-align: center;
-    position: absolute;
+    justify-content: center;
+    margin-top: -102px;
+    margin-left: 16px;
 }
 
-.bbaa{
-    display: flex;
-}
+
 
 @media(max-width: 450px) {
     body { /* deixa que todo o fundo fique nessa cor.  É um fundo inexistente */
