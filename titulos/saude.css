@@ -227,6 +227,10 @@ main{
     position: absolute;
 }
 
+.bba{
+    display: flex;
+}
+
 @media(max-width: 450px) {
     body { /* deixa que todo o fundo fique nessa cor.  É um fundo inexistente */
         max-width: 100%;
