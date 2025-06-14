@@ -169,6 +169,28 @@ main{
     
 }
 
+.notg{
+    margin-left: 20px;
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.bb{
+    width: 430px;
+    height: 310px;
+    border: 1px solid black;
+    opacity: 75%;
+}
+
+.nots{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
 @media(max-width: 450px) {
     body { /* deixa que todo o fundo fique nessa cor.  É um fundo inexistente */
         max-width: 100%;
