@@ -225,6 +225,7 @@ main{
     font-size: 2em;
     text-align: center;
     justify-content: center;
+    margin-top: -102px;
     opacity: 100%;
 }
 
